@@ -17,7 +17,7 @@ doctest = false
 
 [dependencies]
 ordered-float = "4.1.0"
-ethnum = "1.3"
+ethnum = { git = "https://github.com/ariesdevil/ethnum-rs", rev = "4cb05f1" }
 
 [dev-dependencies]
 rand = "0.8.5"
